@@ -1,0 +1,14 @@
+# Ignore large data and generated artifacts
+nnUNet/data/
+nnUNet_trained_models/
+nnUNet_preprocessed/
+nnUNet_raw/
+results/qc_sitk_pngs/
+*.nii.gz
+*.pth
+*.zip
+*.tar
+*.log
+__pycache__/
+*.pyc
+nnUNet/README.md
