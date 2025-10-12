@@ -1,0 +1,2106 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8983856156865953,
+        "FN": 10431.515384615384,
+        "FP": 11102.253846153846,
+        "IoU": 0.8166595376981903,
+        "TN": 92152511.3923077,
+        "TP": 100642.83846153846,
+        "n_pred": 111745.0923076923,
+        "n_ref": 111074.35384615384
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.8983856156865953,
+            "FN": 10431.515384615384,
+            "FP": 11102.253846153846,
+            "IoU": 0.8166595376981903,
+            "TN": 92152511.3923077,
+            "TP": 100642.83846153846,
+            "n_pred": 111745.0923076923,
+            "n_ref": 111074.35384615384
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8664672235119546,
+                    "FN": 838,
+                    "FP": 27059,
+                    "IoU": 0.7643953853689847,
+                    "TN": 92156282,
+                    "TP": 90509,
+                    "n_pred": 117568,
+                    "n_ref": 91347
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_000_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_000_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9166914986639572,
+                    "FN": 4122,
+                    "FP": 29986,
+                    "IoU": 0.8461961643736782,
+                    "TN": 92052925,
+                    "TP": 187655,
+                    "n_pred": 217641,
+                    "n_ref": 191777
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_001_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_001_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8790996899808254,
+                    "FN": 29960,
+                    "FP": 3773,
+                    "IoU": 0.784279995395654,
+                    "TN": 92118314,
+                    "TP": 122641,
+                    "n_pred": 126414,
+                    "n_ref": 152601
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_002_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_002_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9197685735636641,
+                    "FN": 26467,
+                    "FP": 4776,
+                    "IoU": 0.8514551151302495,
+                    "TN": 92064361,
+                    "TP": 179084,
+                    "n_pred": 183860,
+                    "n_ref": 205551
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_003_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_003_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9340242707469661,
+                    "FN": 5013,
+                    "FP": 12493,
+                    "IoU": 0.876215325654243,
+                    "TN": 92133265,
+                    "TP": 123917,
+                    "n_pred": 136410,
+                    "n_ref": 128930
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_004_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_004_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.881853435722935,
+                    "FN": 4550,
+                    "FP": 10866,
+                    "IoU": 0.7886742792910115,
+                    "TN": 92201739,
+                    "TP": 57533,
+                    "n_pred": 68399,
+                    "n_ref": 62083
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_005_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_005_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.931164253469615,
+                    "FN": 1415,
+                    "FP": 14169,
+                    "IoU": 0.8711949020158858,
+                    "TN": 92153699,
+                    "TP": 105405,
+                    "n_pred": 119574,
+                    "n_ref": 106820
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_006_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_006_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9155304988907977,
+                    "FN": 14048,
+                    "FP": 11273,
+                    "IoU": 0.8442196834068524,
+                    "TN": 92112145,
+                    "TP": 137222,
+                    "n_pred": 148495,
+                    "n_ref": 151270
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_007_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_007_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8607444616636087,
+                    "FN": 22618,
+                    "FP": 835,
+                    "IoU": 0.7555323917235628,
+                    "TN": 92178753,
+                    "TP": 72482,
+                    "n_pred": 73317,
+                    "n_ref": 95100
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_008_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_008_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9442533481349425,
+                    "FN": 13838,
+                    "FP": 6550,
+                    "IoU": 0.8943938836716617,
+                    "TN": 92081631,
+                    "TP": 172669,
+                    "n_pred": 179219,
+                    "n_ref": 186507
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_009_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_009_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9184409109940507,
+                    "FN": 34524,
+                    "FP": 7357,
+                    "IoU": 0.8491823704594642,
+                    "TN": 91996995,
+                    "TP": 235812,
+                    "n_pred": 243169,
+                    "n_ref": 270336
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_010_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_010_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9005023155521795,
+                    "FN": 2489,
+                    "FP": 17814,
+                    "IoU": 0.8190124711398746,
+                    "TN": 92162509,
+                    "TP": 91876,
+                    "n_pred": 109690,
+                    "n_ref": 94365
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_011_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_011_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8727471781262343,
+                    "FN": 2758,
+                    "FP": 15607,
+                    "IoU": 0.7742248776769688,
+                    "TN": 92193346,
+                    "TP": 62977,
+                    "n_pred": 78584,
+                    "n_ref": 65735
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_012_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_012_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8617573438640286,
+                    "FN": 18318,
+                    "FP": 1951,
+                    "IoU": 0.7570945783998849,
+                    "TN": 92191244,
+                    "TP": 63175,
+                    "n_pred": 65126,
+                    "n_ref": 81493
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_013_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_013_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9233022133641037,
+                    "FN": 14395,
+                    "FP": 3884,
+                    "IoU": 0.8575314492369566,
+                    "TN": 92146386,
+                    "TP": 110023,
+                    "n_pred": 113907,
+                    "n_ref": 124418
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_014_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_014_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9323049673637501,
+                    "FN": 9744,
+                    "FP": 4703,
+                    "IoU": 0.8731940665320811,
+                    "TN": 92160758,
+                    "TP": 99483,
+                    "n_pred": 104186,
+                    "n_ref": 109227
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_015_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_015_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.918893955494577,
+                    "FN": 1022,
+                    "FP": 17067,
+                    "IoU": 0.8499572823264957,
+                    "TN": 92154129,
+                    "TP": 102470,
+                    "n_pred": 119537,
+                    "n_ref": 103492
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_016_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_016_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9078679238766276,
+                    "FN": 5800,
+                    "FP": 4870,
+                    "IoU": 0.8312803402855742,
+                    "TN": 92211447,
+                    "TP": 52571,
+                    "n_pred": 57441,
+                    "n_ref": 58371
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_017_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_017_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9100063152238764,
+                    "FN": 5322,
+                    "FP": 20471,
+                    "IoU": 0.8348730161778734,
+                    "TN": 92118487,
+                    "TP": 130408,
+                    "n_pred": 150879,
+                    "n_ref": 135730
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_018_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_018_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9186368471870416,
+                    "FN": 2048,
+                    "FP": 31069,
+                    "IoU": 0.849517430659057,
+                    "TN": 92054616,
+                    "TP": 186955,
+                    "n_pred": 218024,
+                    "n_ref": 189003
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_019_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_019_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8866964573294099,
+                    "FN": 19968,
+                    "FP": 16265,
+                    "IoU": 0.7964552553227346,
+                    "TN": 92096678,
+                    "TP": 141777,
+                    "n_pred": 158042,
+                    "n_ref": 161745
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_020_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_020_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8235457963882828,
+                    "FN": 1604,
+                    "FP": 21202,
+                    "IoU": 0.7000236761108042,
+                    "TN": 92198662,
+                    "TP": 53220,
+                    "n_pred": 74422,
+                    "n_ref": 54824
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_021_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_021_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9088707627209934,
+                    "FN": 3311,
+                    "FP": 17838,
+                    "IoU": 0.832963439773167,
+                    "TN": 92148075,
+                    "TP": 105464,
+                    "n_pred": 123302,
+                    "n_ref": 108775
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_022_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_022_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9056325960186672,
+                    "FN": 19203,
+                    "FP": 3485,
+                    "IoU": 0.8275398122458287,
+                    "TN": 92143133,
+                    "TP": 108867,
+                    "n_pred": 112352,
+                    "n_ref": 128070
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_023_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_023_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9199120257638834,
+                    "FN": 5407,
+                    "FP": 14985,
+                    "IoU": 0.8517010166829084,
+                    "TN": 92137182,
+                    "TP": 117114,
+                    "n_pred": 132099,
+                    "n_ref": 122521
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_024_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_024_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9277255306646865,
+                    "FN": 14906,
+                    "FP": 9817,
+                    "IoU": 0.8651940871442826,
+                    "TN": 92091291,
+                    "TP": 158674,
+                    "n_pred": 168491,
+                    "n_ref": 173580
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_025_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_025_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8649727489061181,
+                    "FN": 26871,
+                    "FP": 1273,
+                    "IoU": 0.7620722304882998,
+                    "TN": 92156400,
+                    "TP": 90144,
+                    "n_pred": 91417,
+                    "n_ref": 117015
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_026_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_026_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8944519952491153,
+                    "FN": 1159,
+                    "FP": 16081,
+                    "IoU": 0.8090575817652206,
+                    "TN": 92184399,
+                    "TP": 73049,
+                    "n_pred": 89130,
+                    "n_ref": 74208
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_027_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_027_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8485127114282773,
+                    "FN": 17735,
+                    "FP": 4342,
+                    "IoU": 0.7368841322432246,
+                    "TN": 92190782,
+                    "TP": 61829,
+                    "n_pred": 66171,
+                    "n_ref": 79564
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_028_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_028_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9359702050840015,
+                    "FN": 6601,
+                    "FP": 20958,
+                    "IoU": 0.8796466128637809,
+                    "TN": 92045704,
+                    "TP": 201425,
+                    "n_pred": 222383,
+                    "n_ref": 208026
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_029_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_029_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8706689011577954,
+                    "FN": 6357,
+                    "FP": 8846,
+                    "IoU": 0.7709598204197237,
+                    "TN": 92208311,
+                    "TP": 51174,
+                    "n_pred": 60020,
+                    "n_ref": 57531
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_030_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_030_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9017682525206465,
+                    "FN": 8777,
+                    "FP": 10611,
+                    "IoU": 0.8211092554830733,
+                    "TN": 92166309,
+                    "TP": 88991,
+                    "n_pred": 99602,
+                    "n_ref": 97768
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_031_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_031_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9093444521658559,
+                    "FN": 7986,
+                    "FP": 11582,
+                    "IoU": 0.8337595256097664,
+                    "TN": 92156979,
+                    "TP": 98141,
+                    "n_pred": 109723,
+                    "n_ref": 106127
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_032_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_032_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8933296603832985,
+                    "FN": 6407,
+                    "FP": 7146,
+                    "IoU": 0.8072229176149295,
+                    "TN": 92204384,
+                    "TP": 56751,
+                    "n_pred": 63897,
+                    "n_ref": 63158
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_033_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_033_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8811068278812462,
+                    "FN": 12705,
+                    "FP": 10334,
+                    "IoU": 0.7874807442186534,
+                    "TN": 92166279,
+                    "TP": 85370,
+                    "n_pred": 95704,
+                    "n_ref": 98075
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_034_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_034_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9084093677316204,
+                    "FN": 10111,
+                    "FP": 18990,
+                    "IoU": 0.8321886803333045,
+                    "TN": 92101273,
+                    "TP": 144314,
+                    "n_pred": 163304,
+                    "n_ref": 154425
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_035_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_035_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8883183851561295,
+                    "FN": 20152,
+                    "FP": 10256,
+                    "IoU": 0.799076258251234,
+                    "TN": 92123347,
+                    "TP": 120933,
+                    "n_pred": 131189,
+                    "n_ref": 141085
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_036_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_036_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8802879881480411,
+                    "FN": 17445,
+                    "FP": 9059,
+                    "IoU": 0.786173568587587,
+                    "TN": 92150737,
+                    "TP": 97447,
+                    "n_pred": 106506,
+                    "n_ref": 114892
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_037_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_037_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8947477358036708,
+                    "FN": 17530,
+                    "FP": 1285,
+                    "IoU": 0.8095416447341782,
+                    "TN": 92175900,
+                    "TP": 79973,
+                    "n_pred": 81258,
+                    "n_ref": 97503
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_038_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_038_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9135721404020536,
+                    "FN": 5066,
+                    "FP": 24681,
+                    "IoU": 0.8408953547455406,
+                    "TN": 92087723,
+                    "TP": 157218,
+                    "n_pred": 181899,
+                    "n_ref": 162284
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_039_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_039_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.901357746770123,
+                    "FN": 1428,
+                    "FP": 19561,
+                    "IoU": 0.8204288012046131,
+                    "TN": 92157804,
+                    "TP": 95895,
+                    "n_pred": 115456,
+                    "n_ref": 97323
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_040_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_040_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8288551013123105,
+                    "FN": 1955,
+                    "FP": 26332,
+                    "IoU": 0.707730616630848,
+                    "TN": 92177904,
+                    "TP": 68497,
+                    "n_pred": 94829,
+                    "n_ref": 70452
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_041_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_041_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8929256499332608,
+                    "FN": 5396,
+                    "FP": 18830,
+                    "IoU": 0.8065633982753114,
+                    "TN": 92149448,
+                    "TP": 101014,
+                    "n_pred": 119844,
+                    "n_ref": 106410
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_042_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_042_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9124572492703279,
+                    "FN": 16426,
+                    "FP": 3130,
+                    "IoU": 0.8390081664910432,
+                    "TN": 92153216,
+                    "TP": 101916,
+                    "n_pred": 105046,
+                    "n_ref": 118342
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_043_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_043_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.870138396945246,
+                    "FN": 1117,
+                    "FP": 13915,
+                    "IoU": 0.7701283011943174,
+                    "TN": 92209295,
+                    "TP": 50361,
+                    "n_pred": 64276,
+                    "n_ref": 51478
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_044_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_044_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9186804873023754,
+                    "FN": 6716,
+                    "FP": 17361,
+                    "IoU": 0.8495920738639913,
+                    "TN": 92114610,
+                    "TP": 136001,
+                    "n_pred": 153362,
+                    "n_ref": 142717
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_045_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_045_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9048804980919863,
+                    "FN": 6562,
+                    "FP": 17118,
+                    "IoU": 0.8262847082125958,
+                    "TN": 92138373,
+                    "TP": 112635,
+                    "n_pred": 129753,
+                    "n_ref": 119197
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_046_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_046_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9488758222818287,
+                    "FN": 10621,
+                    "FP": 7829,
+                    "IoU": 0.9027247611616087,
+                    "TN": 92085020,
+                    "TP": 171218,
+                    "n_pred": 179047,
+                    "n_ref": 181839
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_047_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_047_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9007969055358102,
+                    "FN": 5863,
+                    "FP": 3934,
+                    "IoU": 0.8194999723639848,
+                    "TN": 92220411,
+                    "TP": 44480,
+                    "n_pred": 48414,
+                    "n_ref": 50343
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_048_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_048_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9120293104514012,
+                    "FN": 4463,
+                    "FP": 11192,
+                    "IoU": 0.838284817056794,
+                    "TN": 92177882,
+                    "TP": 81151,
+                    "n_pred": 92343,
+                    "n_ref": 85614
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_049_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_049_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9060787752715803,
+                    "FN": 3357,
+                    "FP": 10459,
+                    "IoU": 0.8282852135870443,
+                    "TN": 92194229,
+                    "TP": 66643,
+                    "n_pred": 77102,
+                    "n_ref": 70000
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_050_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_050_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9273700248987328,
+                    "FN": 7673,
+                    "FP": 11871,
+                    "IoU": 0.8645758988892508,
+                    "TN": 92130371,
+                    "TP": 124773,
+                    "n_pred": 136644,
+                    "n_ref": 132446
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_051_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_051_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8554502280986045,
+                    "FN": 31595,
+                    "FP": 7030,
+                    "IoU": 0.7474119947422458,
+                    "TN": 92121771,
+                    "TP": 114292,
+                    "n_pred": 121322,
+                    "n_ref": 145887
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_052_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_052_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.892692582613955,
+                    "FN": 14155,
+                    "FP": 5361,
+                    "IoU": 0.8061831507651972,
+                    "TN": 92173995,
+                    "TP": 81177,
+                    "n_pred": 86538,
+                    "n_ref": 95332
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_053_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_053_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9296721305807468,
+                    "FN": 7844,
+                    "FP": 12497,
+                    "IoU": 0.8685863062550877,
+                    "TN": 92119902,
+                    "TP": 134445,
+                    "n_pred": 146942,
+                    "n_ref": 142289
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_054_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_054_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9265277062265931,
+                    "FN": 5646,
+                    "FP": 7047,
+                    "IoU": 0.8631128270388025,
+                    "TN": 92181962,
+                    "TP": 80033,
+                    "n_pred": 87080,
+                    "n_ref": 85679
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_055_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_055_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8849731699370308,
+                    "FN": 6067,
+                    "FP": 11232,
+                    "IoU": 0.7936788120937444,
+                    "TN": 92190843,
+                    "TP": 66546,
+                    "n_pred": 77778,
+                    "n_ref": 72613
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_056_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_056_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9045150821417313,
+                    "FN": 4300,
+                    "FP": 14177,
+                    "IoU": 0.825675522680957,
+                    "TN": 92168696,
+                    "TP": 87515,
+                    "n_pred": 101692,
+                    "n_ref": 91815
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_057_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_057_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9002704205903224,
+                    "FN": 19877,
+                    "FP": 923,
+                    "IoU": 0.8186289042744285,
+                    "TN": 92160006,
+                    "TP": 93882,
+                    "n_pred": 94805,
+                    "n_ref": 113759
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_058_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_058_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8893115563283684,
+                    "FN": 3872,
+                    "FP": 17835,
+                    "IoU": 0.8006849818195174,
+                    "TN": 92165780,
+                    "TP": 87201,
+                    "n_pred": 105036,
+                    "n_ref": 91073
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_059_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_059_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8773903262092239,
+                    "FN": 15924,
+                    "FP": 2170,
+                    "IoU": 0.781563126252505,
+                    "TN": 92191854,
+                    "TP": 64740,
+                    "n_pred": 66910,
+                    "n_ref": 80664
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_060_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_060_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8939306486702482,
+                    "FN": 17687,
+                    "FP": 10981,
+                    "IoU": 0.8082048811817598,
+                    "TN": 92125216,
+                    "TP": 120804,
+                    "n_pred": 131785,
+                    "n_ref": 138491
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_061_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_061_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8941616335921772,
+                    "FN": 1274,
+                    "FP": 15654,
+                    "IoU": 0.8085825747724318,
+                    "TN": 92186253,
+                    "TP": 71507,
+                    "n_pred": 87161,
+                    "n_ref": 72781
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_062_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_062_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9234868421052631,
+                    "FN": 13157,
+                    "FP": 7777,
+                    "IoU": 0.8578500275010695,
+                    "TN": 92127421,
+                    "TP": 126333,
+                    "n_pred": 134110,
+                    "n_ref": 139490
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_063_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_063_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9103347129023185,
+                    "FN": 7038,
+                    "FP": 10814,
+                    "IoU": 0.8354260007006287,
+                    "TN": 92166214,
+                    "TP": 90622,
+                    "n_pred": 101436,
+                    "n_ref": 97660
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_064_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_064_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8119174047817702,
+                    "FN": 33286,
+                    "FP": 753,
+                    "IoU": 0.6833846468667739,
+                    "TN": 92167179,
+                    "TP": 73470,
+                    "n_pred": 74223,
+                    "n_ref": 106756
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_065_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_065_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9237809738455238,
+                    "FN": 16387,
+                    "FP": 7996,
+                    "IoU": 0.858357779778675,
+                    "TN": 92102543,
+                    "TP": 147762,
+                    "n_pred": 155758,
+                    "n_ref": 164149
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_066_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_066_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9169120283864636,
+                    "FN": 14079,
+                    "FP": 21139,
+                    "IoU": 0.846572072091696,
+                    "TN": 92045147,
+                    "TP": 194323,
+                    "n_pred": 215462,
+                    "n_ref": 208402
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_067_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_067_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9127821720583007,
+                    "FN": 8626,
+                    "FP": 7076,
+                    "IoU": 0.8395577671738176,
+                    "TN": 92176821,
+                    "TP": 82165,
+                    "n_pred": 89241,
+                    "n_ref": 90791
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_068_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_068_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9031532395912981,
+                    "FN": 7894,
+                    "FP": 24911,
+                    "IoU": 0.8234087679255846,
+                    "TN": 92088920,
+                    "TP": 152963,
+                    "n_pred": 177874,
+                    "n_ref": 160857
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_069_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_069_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.936251893744252,
+                    "FN": 10107,
+                    "FP": 6598,
+                    "IoU": 0.8801443577086443,
+                    "TN": 92135312,
+                    "TP": 122671,
+                    "n_pred": 129269,
+                    "n_ref": 132778
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_070_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_070_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9037327878831084,
+                    "FN": 9452,
+                    "FP": 8103,
+                    "IoU": 0.8243727239985593,
+                    "TN": 92174732,
+                    "TP": 82401,
+                    "n_pred": 90504,
+                    "n_ref": 91853
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_071_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_071_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8986302656606964,
+                    "FN": 27758,
+                    "FP": 2459,
+                    "IoU": 0.8159206101661874,
+                    "TN": 92110536,
+                    "TP": 133935,
+                    "n_pred": 136394,
+                    "n_ref": 161693
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_072_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_072_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8772807105860769,
+                    "FN": 17459,
+                    "FP": 4481,
+                    "IoU": 0.7813891850419984,
+                    "TN": 92174327,
+                    "TP": 78421,
+                    "n_pred": 82902,
+                    "n_ref": 95880
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_073_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_073_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.85067279291106,
+                    "FN": 11474,
+                    "FP": 7181,
+                    "IoU": 0.7401484865790977,
+                    "TN": 92202897,
+                    "TP": 53136,
+                    "n_pred": 60317,
+                    "n_ref": 64610
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_074_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_074_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9068933376560221,
+                    "FN": 13457,
+                    "FP": 4923,
+                    "IoU": 0.8296476171056778,
+                    "TN": 92166794,
+                    "TP": 89514,
+                    "n_pred": 94437,
+                    "n_ref": 102971
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_075_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_075_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9207805160817343,
+                    "FN": 2299,
+                    "FP": 16287,
+                    "IoU": 0.8531911532385466,
+                    "TN": 92148088,
+                    "TP": 108014,
+                    "n_pred": 124301,
+                    "n_ref": 110313
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_076_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_076_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.954653380707869,
+                    "FN": 7329,
+                    "FP": 16754,
+                    "IoU": 0.9132409892465371,
+                    "TN": 91997103,
+                    "TP": 253502,
+                    "n_pred": 270256,
+                    "n_ref": 260831
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_077_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_077_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8880456051848752,
+                    "FN": 1700,
+                    "FP": 18096,
+                    "IoU": 0.7986349164369488,
+                    "TN": 92176379,
+                    "TP": 78513,
+                    "n_pred": 96609,
+                    "n_ref": 80213
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_078_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_078_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9218496546716969,
+                    "FN": 6270,
+                    "FP": 10737,
+                    "IoU": 0.8550288544321601,
+                    "TN": 92157375,
+                    "TP": 100306,
+                    "n_pred": 111043,
+                    "n_ref": 106576
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_079_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_079_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9018636652726116,
+                    "FN": 16381,
+                    "FP": 3987,
+                    "IoU": 0.8212674845118377,
+                    "TN": 92160730,
+                    "TP": 93590,
+                    "n_pred": 97577,
+                    "n_ref": 109971
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_080_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_080_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9230066707152306,
+                    "FN": 9320,
+                    "FP": 7035,
+                    "IoU": 0.8570217155645697,
+                    "TN": 92160300,
+                    "TP": 98033,
+                    "n_pred": 105068,
+                    "n_ref": 107353
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_081_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_081_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9327432580444629,
+                    "FN": 2586,
+                    "FP": 6502,
+                    "IoU": 0.8739633317615733,
+                    "TN": 92202582,
+                    "TP": 63018,
+                    "n_pred": 69520,
+                    "n_ref": 65604
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_082_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_082_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8367886375510362,
+                    "FN": 17472,
+                    "FP": 24701,
+                    "IoU": 0.7193779776955631,
+                    "TN": 92124404,
+                    "TP": 108111,
+                    "n_pred": 132812,
+                    "n_ref": 125583
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_083_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_083_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8936138526731923,
+                    "FN": 8906,
+                    "FP": 6810,
+                    "IoU": 0.807687130602905,
+                    "TN": 92192967,
+                    "TP": 66005,
+                    "n_pred": 72815,
+                    "n_ref": 74911
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_084_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_084_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9343699132188901,
+                    "FN": 3244,
+                    "FP": 9900,
+                    "IoU": 0.8768238855204341,
+                    "TN": 92167979,
+                    "TP": 93565,
+                    "n_pred": 103465,
+                    "n_ref": 96809
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_085_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_085_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9192224481142844,
+                    "FN": 8717,
+                    "FP": 6143,
+                    "IoU": 0.8505195602096347,
+                    "TN": 92175277,
+                    "TP": 84551,
+                    "n_pred": 90694,
+                    "n_ref": 93268
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_086_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_086_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8810529353129427,
+                    "FN": 33502,
+                    "FP": 2774,
+                    "IoU": 0.7873946526320725,
+                    "TN": 92104062,
+                    "TP": 134350,
+                    "n_pred": 137124,
+                    "n_ref": 167852
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_087_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_087_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9123959815461562,
+                    "FN": 15461,
+                    "FP": 4857,
+                    "IoU": 0.8389045701056104,
+                    "TN": 92148564,
+                    "TP": 105806,
+                    "n_pred": 110663,
+                    "n_ref": 121267
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_088_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_088_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9102488175689379,
+                    "FN": 11146,
+                    "FP": 10980,
+                    "IoU": 0.8352813304944687,
+                    "TN": 92140362,
+                    "TP": 112200,
+                    "n_pred": 123180,
+                    "n_ref": 123346
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_089_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_089_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9366481323856162,
+                    "FN": 1349,
+                    "FP": 10113,
+                    "IoU": 0.880844959145061,
+                    "TN": 92178494,
+                    "TP": 84732,
+                    "n_pred": 94845,
+                    "n_ref": 86081
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_090_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_090_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9389594087581286,
+                    "FN": 12856,
+                    "FP": 13549,
+                    "IoU": 0.8849420243754711,
+                    "TN": 92045195,
+                    "TP": 203088,
+                    "n_pred": 216637,
+                    "n_ref": 215944
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_091_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_091_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8768888368279255,
+                    "FN": 2951,
+                    "FP": 27528,
+                    "IoU": 0.780767626199416,
+                    "TN": 92135662,
+                    "TP": 108547,
+                    "n_pred": 136075,
+                    "n_ref": 111498
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_092_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_092_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9044356011922353,
+                    "FN": 39753,
+                    "FP": 1960,
+                    "IoU": 0.8255430736673052,
+                    "TN": 92035586,
+                    "TP": 197389,
+                    "n_pred": 199349,
+                    "n_ref": 237142
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_093_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_093_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.814898788536733,
+                    "FN": 2159,
+                    "FP": 17108,
+                    "IoU": 0.6876195726190862,
+                    "TN": 92213010,
+                    "TP": 42411,
+                    "n_pred": 59519,
+                    "n_ref": 44570
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_094_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_094_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8762671927228889,
+                    "FN": 28605,
+                    "FP": 3007,
+                    "IoU": 0.7797825132881455,
+                    "TN": 92131139,
+                    "TP": 111937,
+                    "n_pred": 114944,
+                    "n_ref": 140542
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_095_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_095_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9162557756764282,
+                    "FN": 6082,
+                    "FP": 17679,
+                    "IoU": 0.8454538950353503,
+                    "TN": 92120941,
+                    "TP": 129986,
+                    "n_pred": 147665,
+                    "n_ref": 136068
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_096_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_096_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9037723136900907,
+                    "FN": 2549,
+                    "FP": 12162,
+                    "IoU": 0.8244385039501635,
+                    "TN": 92190894,
+                    "TP": 69083,
+                    "n_pred": 81245,
+                    "n_ref": 71632
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_097_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_097_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9032134075128985,
+                    "FN": 7637,
+                    "FP": 12004,
+                    "IoU": 0.8235087971532807,
+                    "TN": 92163402,
+                    "TP": 91645,
+                    "n_pred": 103649,
+                    "n_ref": 99282
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_098_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_098_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9133990645936039,
+                    "FN": 12274,
+                    "FP": 1428,
+                    "IoU": 0.8406021335256686,
+                    "TN": 92188727,
+                    "TP": 72259,
+                    "n_pred": 73687,
+                    "n_ref": 84533
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_099_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_099_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9106765589595974,
+                    "FN": 4504,
+                    "FP": 15325,
+                    "IoU": 0.8360019849474816,
+                    "TN": 92153778,
+                    "TP": 101081,
+                    "n_pred": 116406,
+                    "n_ref": 105585
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_100_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_100_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9030259620661749,
+                    "FN": 2516,
+                    "FP": 7909,
+                    "IoU": 0.8231972050742826,
+                    "TN": 92215724,
+                    "TP": 48539,
+                    "n_pred": 56448,
+                    "n_ref": 51055
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_101_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_101_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8685176320408489,
+                    "FN": 16406,
+                    "FP": 3370,
+                    "IoU": 0.7675927231702158,
+                    "TN": 92189596,
+                    "TP": 65316,
+                    "n_pred": 68686,
+                    "n_ref": 81722
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_102_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_102_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9054239673020872,
+                    "FN": 11064,
+                    "FP": 8697,
+                    "IoU": 0.8271914789422136,
+                    "TN": 92160336,
+                    "TP": 94591,
+                    "n_pred": 103288,
+                    "n_ref": 105655
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_103_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_103_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8784119423569299,
+                    "FN": 16951,
+                    "FP": 2092,
+                    "IoU": 0.7831858910862907,
+                    "TN": 92186857,
+                    "TP": 68788,
+                    "n_pred": 70880,
+                    "n_ref": 85739
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_104_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_104_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9223308486872663,
+                    "FN": 7976,
+                    "FP": 6070,
+                    "IoU": 0.8558571501872851,
+                    "TN": 92177243,
+                    "TP": 83399,
+                    "n_pred": 89469,
+                    "n_ref": 91375
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_105_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_105_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.913742817722978,
+                    "FN": 2879,
+                    "FP": 6999,
+                    "IoU": 0.8411846040065597,
+                    "TN": 92212490,
+                    "TP": 52320,
+                    "n_pred": 59319,
+                    "n_ref": 55199
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_106_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_106_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9107589077519541,
+                    "FN": 7001,
+                    "FP": 5820,
+                    "IoU": 0.8361407903481417,
+                    "TN": 92196444,
+                    "TP": 65423,
+                    "n_pred": 71243,
+                    "n_ref": 72424
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_107_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_107_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8903747173986243,
+                    "FN": 2577,
+                    "FP": 11097,
+                    "IoU": 0.8024102653025836,
+                    "TN": 92205484,
+                    "TP": 55530,
+                    "n_pred": 66627,
+                    "n_ref": 58107
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_108_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_108_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.861695816405458,
+                    "FN": 32077,
+                    "FP": 4757,
+                    "IoU": 0.7569996041694155,
+                    "TN": 92123108,
+                    "TP": 114746,
+                    "n_pred": 119503,
+                    "n_ref": 146823
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_109_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_109_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8885865537321334,
+                    "FN": 6398,
+                    "FP": 14648,
+                    "IoU": 0.7995103502805483,
+                    "TN": 92169715,
+                    "TP": 83927,
+                    "n_pred": 98575,
+                    "n_ref": 90325
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_110_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_110_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.871584992532572,
+                    "FN": 2780,
+                    "FP": 12783,
+                    "IoU": 0.7723975547690778,
+                    "TN": 92206310,
+                    "TP": 52815,
+                    "n_pred": 65598,
+                    "n_ref": 55595
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_111_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_111_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8414885193982581,
+                    "FN": 19550,
+                    "FP": 3473,
+                    "IoU": 0.7263531984691088,
+                    "TN": 92190554,
+                    "TP": 61111,
+                    "n_pred": 64584,
+                    "n_ref": 80661
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_112_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_112_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9117870581475097,
+                    "FN": 8007,
+                    "FP": 6270,
+                    "IoU": 0.8378755876541527,
+                    "TN": 92186626,
+                    "TP": 73785,
+                    "n_pred": 80055,
+                    "n_ref": 81792
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_113_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_113_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8940122052829509,
+                    "FN": 1942,
+                    "FP": 21591,
+                    "IoU": 0.8083382199635132,
+                    "TN": 92151904,
+                    "TP": 99251,
+                    "n_pred": 120842,
+                    "n_ref": 101193
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_114_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_114_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9330819295001529,
+                    "FN": 15357,
+                    "FP": 12219,
+                    "IoU": 0.8745581833317412,
+                    "TN": 92054857,
+                    "TP": 192255,
+                    "n_pred": 204474,
+                    "n_ref": 207612
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_115_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_115_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8772844857722156,
+                    "FN": 1519,
+                    "FP": 16033,
+                    "IoU": 0.7813951750507528,
+                    "TN": 92194397,
+                    "TP": 62739,
+                    "n_pred": 78772,
+                    "n_ref": 64258
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_116_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_116_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9259968518971013,
+                    "FN": 4299,
+                    "FP": 8724,
+                    "IoU": 0.8621919344768838,
+                    "TN": 92180187,
+                    "TP": 81478,
+                    "n_pred": 90202,
+                    "n_ref": 85777
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_117_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_117_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8947427645496692,
+                    "FN": 12136,
+                    "FP": 6572,
+                    "IoU": 0.8095335057319134,
+                    "TN": 92176466,
+                    "TP": 79514,
+                    "n_pred": 86086,
+                    "n_ref": 91650
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_118_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_118_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9061889661255434,
+                    "FN": 8805,
+                    "FP": 9063,
+                    "IoU": 0.8284693955917364,
+                    "TN": 92170520,
+                    "TP": 86300,
+                    "n_pred": 95363,
+                    "n_ref": 95105
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_119_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_119_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8486919285411602,
+                    "FN": 27915,
+                    "FP": 6006,
+                    "IoU": 0.737154502413737,
+                    "TN": 92145635,
+                    "TP": 95132,
+                    "n_pred": 101138,
+                    "n_ref": 123047
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_120_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_120_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8840301700328416,
+                    "FN": 1917,
+                    "FP": 21177,
+                    "IoU": 0.7921631448216279,
+                    "TN": 92163572,
+                    "TP": 88022,
+                    "n_pred": 109199,
+                    "n_ref": 89939
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_121_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_121_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8378767176882008,
+                    "FN": 2652,
+                    "FP": 24283,
+                    "IoU": 0.7209878077835441,
+                    "TN": 92178151,
+                    "TP": 69602,
+                    "n_pred": 93885,
+                    "n_ref": 72254
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_122_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_122_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.89269636786545,
+                    "FN": 7392,
+                    "FP": 7601,
+                    "IoU": 0.8061893250946884,
+                    "TN": 92197329,
+                    "TP": 62366,
+                    "n_pred": 69967,
+                    "n_ref": 69758
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_123_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_123_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8876723303401542,
+                    "FN": 6462,
+                    "FP": 6998,
+                    "IoU": 0.7980313306524218,
+                    "TN": 92208044,
+                    "TP": 53184,
+                    "n_pred": 60182,
+                    "n_ref": 59646
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_124_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_124_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8472374887869714,
+                    "FN": 844,
+                    "FP": 23338,
+                    "IoU": 0.7349627356422621,
+                    "TN": 92183448,
+                    "TP": 67058,
+                    "n_pred": 90396,
+                    "n_ref": 67902
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_125_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_125_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9097218491818777,
+                    "FN": 15062,
+                    "FP": 1744,
+                    "IoU": 0.8343942768175637,
+                    "TN": 92173206,
+                    "TP": 84676,
+                    "n_pred": 86420,
+                    "n_ref": 99738
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_126_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_126_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8948015477592433,
+                    "FN": 1733,
+                    "FP": 14525,
+                    "IoU": 0.8096297510596941,
+                    "TN": 92189286,
+                    "TP": 69144,
+                    "n_pred": 83669,
+                    "n_ref": 70877
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_127_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_127_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9284846782388856,
+                    "FN": 3130,
+                    "FP": 14182,
+                    "IoU": 0.8665155405457503,
+                    "TN": 92144995,
+                    "TP": 112381,
+                    "n_pred": 126563,
+                    "n_ref": 115511
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_128_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_128_seg.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9127572231664269,
+                    "FN": 5116,
+                    "FP": 11567,
+                    "IoU": 0.8395155549570003,
+                    "TN": 92170734,
+                    "TP": 87271,
+                    "n_pred": 98838,
+                    "n_ref": 92387
+                }
+            },
+            "prediction_file": "/data/nnUNet_raw/Dataset001_PROSTATE/predictions_3d_fullres_seg/case_129_seg.nii.gz",
+            "reference_file": "/data/nnUNet_raw/Dataset001_PROSTATE/labelsTs/case_129_seg.nii.gz"
+        }
+    ]
+}
