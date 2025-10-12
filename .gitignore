@@ -12,3 +12,5 @@ results/qc_sitk_pngs/
 __pycache__/
 *.pyc
 nnUNet/README.md
+nnUNet/README.md
+nnUNet/LICENSE
