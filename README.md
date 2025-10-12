@@ -18,7 +18,7 @@ medicalimaging/nnunet/
 
 This project develops a complete medical image segmentation pipeline for prostate MRI using nnU-Net v2 and extends it with synthetic data generation via diffusion models to improve generalization.
 
-We began by organizing the Dataset001_PROSTATE in nnU-Net format (imagesTr, labelsTr, imagesTs) and verifying dataset integrity. Using Docker, nnU-Net was configured with environment variables for raw, preprocessed, and trained model directories. The pipeline was trained using 5-fold cross-validation (nnUNetv2_train 1 3d_fullres 0–4) and validated automatically. Training logs, checkpoints (checkpoint_best.pth), and model plans were saved under /data/nnUNet_trained_models/.
+We began by organizing the Dataset001_PROSTATE based on the LUND probe dataset - https://datahub.aida.scilifelab.se/10.23698/aida/lund-probe -  in nnU-Net format (imagesTr, labelsTr, imagesTs) and verifying dataset integrity. Using Docker, nnU-Net was configured with environment variables for raw, preprocessed, and trained model directories. The pipeline was trained using 5-fold cross-validation (nnUNetv2_train 1 3d_fullres 0–4) and validated automatically. Training logs, checkpoints (checkpoint_best.pth), and model plans were saved under /data/nnUNet_trained_models/.
 
 After training, we performed inference on the test set using an ensemble of all folds (nnUNetv2_predict … -f all) to generate 3D segmentation masks for 130 test cases. Quantitative evaluation was performed with nnUNetv2_evaluate_folder, producing Dice ≈ 0.90 and IoU ≈ 0.82. Cross-validation summaries were extracted (summary.json) and compared to test results to confirm consistency.
 

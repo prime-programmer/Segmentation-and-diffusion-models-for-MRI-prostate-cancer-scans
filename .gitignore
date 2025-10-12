@@ -11,6 +11,13 @@ results/qc_sitk_pngs/
 *.log
 __pycache__/
 *.pyc
+# Model checkpoints & large artifacts
+*.pth
+*.ckpt
+checkpoints/
+*/checkpoints/
+
 nnUNet/README.md
 nnUNet/README.md
 nnUNet/LICENSE
+.ipynb_checkpoints/
