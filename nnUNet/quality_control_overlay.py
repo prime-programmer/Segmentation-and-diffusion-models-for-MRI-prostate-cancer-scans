@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-SimpleITK-based QC overlay generator for nnU-Net outputs.
-
-Creates quick visual checks (PNG overlays) showing MRI (gray),
-prediction (filled cyan), and ground truth (magenta outline).
-
-Default paths assume nnU-Net dataset folder structure.
-"""
-
 import os, argparse, glob
 import numpy as np
 import SimpleITK as sitk
@@ -15,8 +5,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-
-# ------------------- Helper functions -------------------
 
 def load_img(path):
     if not os.path.isfile(path):
@@ -28,7 +16,7 @@ def sitk_to_numpy(img):
     return sitk.GetArrayFromImage(img)
 
 def normalize_for_display(img_sitk, p_lo=1, p_hi=99):
-    """Normalize intensities to [0,1] for display."""
+    # Normalize intensities to [0,1] for display
     arr = sitk.GetArrayFromImage(img_sitk).astype(np.float32)
     lo = np.percentile(arr, p_lo)
     hi = np.percentile(arr, p_hi)
@@ -37,7 +25,7 @@ def normalize_for_display(img_sitk, p_lo=1, p_hi=99):
     return arr
 
 def choose_slices(mask_np, k=3):
-    """Pick k informative slices based on mask extent; fallback to center."""
+    # Pick k informative slices based on mask extent; fallback to center
     idx = np.where(mask_np > 0)[0]
     if idx.size == 0:
         return [mask_np.shape[0] // 2]
@@ -46,25 +34,25 @@ def choose_slices(mask_np, k=3):
     return sorted({zmin, zmid, zmax})[:k]
 
 def label_contour(mask_sitk):
-    """Return contour voxels from label mask."""
+    # Return contour voxels from label mask
     mask_u8 = sitk.Cast(mask_sitk > 0, sitk.sitkUInt8)
     return sitk.LabelContour(mask_u8)
 
 def colorize_overlay(gray, mask=None, contour=None, title="", out_png=None):
-    """Create and save an RGB overlay image."""
+    # Create and save an RGB overlay image
     h, w = gray.shape
     rgb = np.stack([gray, gray, gray], axis=-1)
 
     if mask is not None:
         m = mask.astype(bool)
         rgb[m, 1] = 1.0
-        rgb[m, 2] = 1.0  # cyan fill
+        rgb[m, 2] = 1.0  
 
     if contour is not None:
         c = contour.astype(bool)
         rgb[c, 0] = 1.0
         rgb[c, 1] = 0.0
-        rgb[c, 2] = 1.0  # magenta outline
+        rgb[c, 2] = 1.0  
 
     plt.figure(figsize=(5,5))
     plt.imshow(rgb, origin="lower")
@@ -76,10 +64,8 @@ def colorize_overlay(gray, mask=None, contour=None, title="", out_png=None):
     plt.close()
 
 
-# ------------------- Core processing -------------------
 
 def run_case(root, case, out_root, k_slices=3):
-    """Generate QC overlays for one case."""
     print(f"Processing {case}...")
 
     # Locate MRI, prediction, and ground truth paths
@@ -134,8 +120,6 @@ def run_case(root, case, out_root, k_slices=3):
     return case_dir
 
 
-# ------------------- Entry point -------------------
-
 def main():
     ap = argparse.ArgumentParser(description="Generate QC overlays using SimpleITK")
     ap.add_argument("--root", default="/space/local/cug/nnUNet_raw/Dataset001_PROSTATE",
@@ -164,7 +148,7 @@ def main():
                 run_case(args.root, c, out_root, k_slices=args.k)
             except Exception as e:
                 print(f"[WARN] {c}: {e}")
-        print(f"✅ All QC PNGs saved under: {out_root}")
+        print(f" All QC PNGs saved under: {out_root}")
 
 if __name__ == "__main__":
     main()
